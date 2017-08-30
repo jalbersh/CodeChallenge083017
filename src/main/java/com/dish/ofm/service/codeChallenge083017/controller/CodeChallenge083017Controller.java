@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@Api(value = "/challenge", description = "Code Challenge 083017")
 public class CodeChallenge083017Controller {
 
     private static Logger LOGGER = LoggerFactory.getLogger(CodeChallenge083017Controller.class);
