@@ -1,0 +1,13 @@
+applications:
+- name: code-challenge-083017
+  path: build/libs/code-challenge-083017.jar
+  diego: true
+  instances: 2
+  memory: 3072M
+  services:
+  - dish_properties
+  - introscope
+  - eureka
+  env:
+    SPRING_PROFILES_ACTIVE: production
+    JAVA_OPTS: ''

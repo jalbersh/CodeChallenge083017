@@ -1,0 +1,4 @@
+---
+applications:
+- name: code-challenge-083017-simulators
+  diego: true
