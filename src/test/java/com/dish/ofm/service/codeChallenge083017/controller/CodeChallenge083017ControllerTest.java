@@ -1,5 +1,6 @@
 package com.dish.ofm.service.codeChallenge083017.controller;
 
+import com.dish.ofm.service.codeChallenge083017.service.CipherService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,6 +15,9 @@ import static org.mockito.Mockito.when;
 @RunWith(MockitoJUnitRunner.class)
 public class CodeChallenge083017ControllerTest {
     private CodeChallenge083017Controller controller;
+
+    @Mock
+    CipherService cipherService;
 
     @Before
     public void setup() {
